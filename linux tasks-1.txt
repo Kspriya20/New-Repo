@@ -1,0 +1,18 @@
+tasks:
+
+
+1. command to get cpu info using cat command: cat /proc/cpuinfo
+2. understand the linux file directory system: pwd
+3. alternate command to get RAM information: cat /proc/meminfo or free -h
+4. command to get Storage Information: df -h or lsblk
+5. command to see running processors on linux system: top
+6. command to create a folder inside a folder: mkdir -p folder1/folder2
+7. command to append a data to a file which are present in folder1: cat >> folder name/file name or echo "enter new data" /folder name/file name
+8. command to copy the data from one file to another file: cp source.txt destination.txt (or) cat source.txt >> destination.txt
+9. command to rename a file: mv old new
+10. diff between > & >> in cat command 
+      >    : replace/overwrites
+      >>  : append
+
+
+cat file1 | tee file2 file3 file4 - to copy data from file1 to another files.
